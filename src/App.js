@@ -7,6 +7,7 @@ import Icons from './Icons';
 import StarIcon from './StarIcon';
 import SvgMaterialIcons from "./SvgMaterialIcons";
 import SvgIcons from './SvgIcons';
+import TypographyTheme from './style/typegraphy/TypographyTheme';
 
 class App extends Component {
   render() {
@@ -26,6 +27,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <FontAwesome />
+            </Grid>
+            <Grid item xs={12}>
+                <TypographyTheme />
             </Grid>
         </Grid>
     );

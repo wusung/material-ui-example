@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import './App.css';
+
+import Icons from './Icons';
 import StarIcon from './StarIcon';
 import SvgMaterialIcons from "./SvgMaterialIcons";
 import SvgIcons from './SvgIcons';
@@ -17,6 +19,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <SvgIcons />
+            </Grid>
+            <Grid item xs={12}>
+                <Icons />
             </Grid>
         </Grid>
     );

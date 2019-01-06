@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import './App.css';
 
+import FontAwesome from './FontAwesome';
 import Icons from './Icons';
 import StarIcon from './StarIcon';
 import SvgMaterialIcons from "./SvgMaterialIcons";
@@ -22,6 +23,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <Icons />
+            </Grid>
+            <Grid item xs={12}>
+                <FontAwesome />
             </Grid>
         </Grid>
     );

@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import './App.css';
 
 import AutoGrid from './layout/grid/AutoGrid';
+import AutoGridNoWrap from './layout/grid/AutoGridNoWrap';
 import CSSGrid from './layout/grid/CSSGrid';
 import CenteredGrid from './layout/grid/CenteredGrid';
 import ComplexGrid from './layout/grid/ComplexGrid';
@@ -62,6 +63,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <NestedGrid />
+            </Grid>
+            <Grid item xs={12}>
+                <AutoGridNoWrap />
             </Grid>
 
         </Grid>

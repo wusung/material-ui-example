@@ -12,6 +12,7 @@ import FullWithGrid from './layout/grid/FullWidthGrid';
 import GuttersGrid from './layout/grid/GuttersGrid';
 import InteractiveGrid from './layout/grid/InteractiveGrid';
 import Icons from './Icons';
+import MediaQuery from './layout/breakpoints/MediaQuery';
 import NestedGrid from './layout/grid/NestedGrid';
 import StarIcon from './StarIcon';
 import SvgMaterialIcons from "./SvgMaterialIcons";
@@ -66,6 +67,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <AutoGridNoWrap />
+            </Grid>
+            <Grid item xs={12}>
+                <MediaQuery />
             </Grid>
 
         </Grid>

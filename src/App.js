@@ -4,6 +4,7 @@ import './App.css';
 
 import AutoGrid from './layout/grid/AutoGrid';
 import CenteredGrid from './layout/grid/CenteredGrid';
+import ComplexGrid from './layout/grid/ComplexGrid';
 import FontAwesome from './FontAwesome';
 import FullWithGrid from './layout/grid/FullWidthGrid';
 import GuttersGrid from './layout/grid/GuttersGrid';
@@ -50,6 +51,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <AutoGrid />
+            </Grid>
+            <Grid item xs={12}>
+                <ComplexGrid />
             </Grid>
 
         </Grid>

@@ -14,6 +14,7 @@ import InteractiveGrid from './layout/grid/InteractiveGrid';
 import Icons from './Icons';
 import MediaQuery from './layout/breakpoints/MediaQuery';
 import NestedGrid from './layout/grid/NestedGrid';
+import RenderPropsWithWidth from './layout/breakpoints/RenderPropsWithWidth';
 import StarIcon from './StarIcon';
 import SvgMaterialIcons from "./SvgMaterialIcons";
 import SvgIcons from './SvgIcons';
@@ -74,6 +75,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <WithWidth />
+            </Grid>
+            <Grid item xs={12}>
+                <RenderPropsWithWidth />
             </Grid>
 
         </Grid>

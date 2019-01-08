@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import './App.css';
 
 import FontAwesome from './FontAwesome';
+import GuttersGrid from './layout/grid/GuttersGrid';
 import Icons from './Icons';
 import StarIcon from './StarIcon';
 import SvgMaterialIcons from "./SvgMaterialIcons";
@@ -30,6 +31,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <TypographyTheme />
+            </Grid>
+            <Grid item xs={12}>
+                <GuttersGrid />
             </Grid>
         </Grid>
     );

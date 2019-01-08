@@ -11,6 +11,7 @@ import FullWithGrid from './layout/grid/FullWidthGrid';
 import GuttersGrid from './layout/grid/GuttersGrid';
 import InteractiveGrid from './layout/grid/InteractiveGrid';
 import Icons from './Icons';
+import NestedGrid from './layout/grid/NestedGrid';
 import StarIcon from './StarIcon';
 import SvgMaterialIcons from "./SvgMaterialIcons";
 import SvgIcons from './SvgIcons';
@@ -59,6 +60,10 @@ class App extends Component {
             <Grid item xs={12}>
                 <CSSGrid />
             </Grid>
+            <Grid item xs={12}>
+                <NestedGrid />
+            </Grid>
+
         </Grid>
     );
   }

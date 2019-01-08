@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import './App.css';
 
 import AutoGrid from './layout/grid/AutoGrid';
+import CSSGrid from './layout/grid/CSSGrid';
 import CenteredGrid from './layout/grid/CenteredGrid';
 import ComplexGrid from './layout/grid/ComplexGrid';
 import FontAwesome from './FontAwesome';
@@ -55,7 +56,9 @@ class App extends Component {
             <Grid item xs={12}>
                 <ComplexGrid />
             </Grid>
-
+            <Grid item xs={12}>
+                <CSSGrid />
+            </Grid>
         </Grid>
     );
   }

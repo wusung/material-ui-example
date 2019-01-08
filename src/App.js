@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import './App.css';
 
+import CenteredGrid from './layout/grid/CenteredGrid';
 import FontAwesome from './FontAwesome';
 import GuttersGrid from './layout/grid/GuttersGrid';
 import Icons from './Icons';
@@ -34,6 +35,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <GuttersGrid />
+            </Grid>
+            <Grid item xs={12}>
+                <CenteredGrid />
             </Grid>
         </Grid>
     );

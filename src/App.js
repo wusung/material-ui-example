@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import './App.css';
 
+import AutoGrid from './layout/grid/AutoGrid';
 import CenteredGrid from './layout/grid/CenteredGrid';
 import FontAwesome from './FontAwesome';
 import FullWithGrid from './layout/grid/FullWidthGrid';
@@ -46,6 +47,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <InteractiveGrid />
+            </Grid>
+            <Grid item xs={12}>
+                <AutoGrid />
             </Grid>
 
         </Grid>

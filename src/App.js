@@ -4,6 +4,7 @@ import './App.css';
 
 import CenteredGrid from './layout/grid/CenteredGrid';
 import FontAwesome from './FontAwesome';
+import FullWithGrid from './layout/grid/FullWidthGrid';
 import GuttersGrid from './layout/grid/GuttersGrid';
 import Icons from './Icons';
 import StarIcon from './StarIcon';
@@ -38,6 +39,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <CenteredGrid />
+            </Grid>
+            <Grid item xs={12}>
+                <FullWithGrid />
             </Grid>
         </Grid>
     );

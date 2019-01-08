@@ -18,6 +18,7 @@ import StarIcon from './StarIcon';
 import SvgMaterialIcons from "./SvgMaterialIcons";
 import SvgIcons from './SvgIcons';
 import TypographyTheme from './style/typegraphy/TypographyTheme';
+import WithWidth from './layout/breakpoints/WithWidth';
 
 class App extends Component {
   render() {
@@ -70,6 +71,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <MediaQuery />
+            </Grid>
+            <Grid item xs={12}>
+                <WithWidth />
             </Grid>
 
         </Grid>

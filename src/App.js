@@ -25,6 +25,7 @@ import WithWidth from './layout/breakpoints/WithWidth';
 import ThemeHelper from './layout/use-media-query/ThemeHelper';
 import ServerSide from './layout/use-media-query/ServerSide';
 import UseWidth from "./layout/use-media-query/UseWidth";
+import BreakpointUp from "./layout/hidden/BreakpointUp";
 
 class App extends Component {
   render() {
@@ -95,6 +96,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <UseWidth/>
+            </Grid>
+            <Grid item xs={12}>
+                <BreakpointUp/>
             </Grid>
         </Grid>
     );

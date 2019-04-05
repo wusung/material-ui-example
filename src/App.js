@@ -23,6 +23,7 @@ import TypographyTheme from './style/typegraphy/TypographyTheme';
 import WithWidth from './layout/breakpoints/WithWidth';
 
 import ThemeHelper from './layout/usemediaquery/ThemeHelper';
+import ServerSide from './layout/usemediaquery/ServerSide';
 
 class App extends Component {
   render() {
@@ -87,6 +88,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <ThemeHelper />
+            </Grid>
+            <Grid item xs={12}>
+                <ServerSide />
             </Grid>
         </Grid>
     );

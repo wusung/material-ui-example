@@ -15,16 +15,16 @@ import Icons from './Icons';
 import MediaQuery from './layout/breakpoints/MediaQuery';
 import NestedGrid from './layout/grid/NestedGrid';
 import RenderPropsWithWidth from './layout/breakpoints/RenderPropsWithWidth';
-import SimpleMediaQuery from './layout/usemediaquery/SimpleMediaQuery';
+import SimpleMediaQuery from './layout/use-media-query/SimpleMediaQuery';
 import StarIcon from './StarIcon';
 import SvgMaterialIcons from "./SvgMaterialIcons";
 import SvgIcons from './SvgIcons';
 import TypographyTheme from './style/typegraphy/TypographyTheme';
 import WithWidth from './layout/breakpoints/WithWidth';
 
-import ThemeHelper from './layout/usemediaquery/ThemeHelper';
-import ServerSide from './layout/usemediaquery/ServerSide';
-import UseWidth from "./layout/usemediaquery/UseWidth";
+import ThemeHelper from './layout/use-media-query/ThemeHelper';
+import ServerSide from './layout/use-media-query/ServerSide';
+import UseWidth from "./layout/use-media-query/UseWidth";
 
 class App extends Component {
   render() {

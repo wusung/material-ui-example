@@ -26,6 +26,7 @@ import ThemeHelper from './layout/use-media-query/ThemeHelper';
 import ServerSide from './layout/use-media-query/ServerSide';
 import UseWidth from "./layout/use-media-query/UseWidth";
 import BreakpointUp from "./layout/hidden/BreakpointUp";
+import BreakpointDown from "./layout/hidden/BreakpointDown";
 
 class App extends Component {
   render() {
@@ -99,6 +100,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <BreakpointUp/>
+            </Grid>
+            <Grid item xs={12}>
+                <BreakpointDown />
             </Grid>
         </Grid>
     );

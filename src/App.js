@@ -30,6 +30,8 @@ import BreakpointDown from "./layout/hidden/BreakpointDown";
 import BreakpointOnly from "./layout/hidden/BreakpointOnly";
 import GridIntegration from "./layout/hidden/GridIntegration";
 
+import SimpleModal from './utils/modal/SimpleModal';
+
 class App extends Component {
   render() {
     return (
@@ -111,6 +113,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <GridIntegration />
+            </Grid>
+            <Grid item xs={12}>
+                <SimpleModal />
             </Grid>
         </Grid>
     );

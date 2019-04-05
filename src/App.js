@@ -22,6 +22,8 @@ import SvgIcons from './SvgIcons';
 import TypographyTheme from './style/typegraphy/TypographyTheme';
 import WithWidth from './layout/breakpoints/WithWidth';
 
+import ThemeHelper from './layout/usemediaquery/ThemeHelper';
+
 class App extends Component {
   render() {
     return (
@@ -83,7 +85,9 @@ class App extends Component {
             <Grid item xs={12}>
                 <SimpleMediaQuery />
             </Grid>
-
+            <Grid item xs={12}>
+                <ThemeHelper />
+            </Grid>
         </Grid>
     );
   }

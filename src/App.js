@@ -27,6 +27,7 @@ import ServerSide from './layout/use-media-query/ServerSide';
 import UseWidth from "./layout/use-media-query/UseWidth";
 import BreakpointUp from "./layout/hidden/BreakpointUp";
 import BreakpointDown from "./layout/hidden/BreakpointDown";
+import BreakpointOnly from "./layout/hidden/BreakpointOnly";
 
 class App extends Component {
   render() {
@@ -103,6 +104,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <BreakpointDown />
+            </Grid>
+            <Grid item xs={12}>
+                <BreakpointOnly />
             </Grid>
         </Grid>
     );

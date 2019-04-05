@@ -32,6 +32,7 @@ import GridIntegration from "./layout/hidden/GridIntegration";
 
 import SimpleModal from './utils/modal/SimpleModal';
 import SimpleCollapse from "./utils/transitions/SimpleCollapse";
+import SimpleFade from "./utils/transitions/SimpleFade";
 
 class App extends Component {
   render() {
@@ -120,6 +121,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <SimpleCollapse />
+            </Grid>
+            <Grid item xs={12}>
+                <SimpleFade />
             </Grid>
         </Grid>
     );

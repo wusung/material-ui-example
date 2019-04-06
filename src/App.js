@@ -39,6 +39,7 @@ import SimpleZoom from "./utils/transitions/SimpleZoom";
 import SimplePopover from "./utils/popover/SimplePopover";
 import AnchorPlayground from "./utils/popover/AnchorPlayground";
 import MouseOverPopover from "./utils/popover/MouseOverPopover";
+import RenderPropsPopover from "./utils/popover/RenderPropsPopover";
 
 class App extends Component {
   render() {
@@ -148,6 +149,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <MouseOverPopover />
+            </Grid>
+            <Grid item xs={12}>
+                <RenderPropsPopover />
             </Grid>
         </Grid>
     );

@@ -41,6 +41,7 @@ import AnchorPlayground from "./utils/popover/AnchorPlayground";
 import MouseOverPopover from "./utils/popover/MouseOverPopover";
 import RenderPropsPopover from "./utils/popover/RenderPropsPopover";
 import PopoverPopupState from "./utils/popover/PopoverPopupState";
+import SimplePopper from "./utils/popper/SimplePopper";
 
 class App extends Component {
   render() {
@@ -156,6 +157,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <PopoverPopupState />
+            </Grid>
+            <Grid item xs={12}>
+                <SimplePopper />
             </Grid>
         </Grid>
     );

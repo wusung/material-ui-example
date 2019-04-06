@@ -37,6 +37,7 @@ import SimpleGrow from "./utils/transitions/SimpleGrow";
 import SimpleSlide from "./utils/transitions/SimpleSlide";
 import SimpleZoom from "./utils/transitions/SimpleZoom";
 import SimplePopover from "./utils/popover/SimplePopover";
+import AnchorPlayground from "./utils/popover/AnchorPlayground";
 
 class App extends Component {
   render() {
@@ -140,6 +141,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <SimplePopover />
+            </Grid>
+            <Grid item xs={12}>
+                <AnchorPlayground />
             </Grid>
         </Grid>
     );

@@ -42,6 +42,7 @@ import MouseOverPopover from "./utils/popover/MouseOverPopover";
 import PopoverPopupState from './utils/popover/PopoverPopupState';
 import SimplePopper from './utils/popper/SimplePopper';
 import MinimalPopper from './utils/popper/MinimalPopper';
+import PositionedPopper from './utils/popper/PositionedPopper';
 
 class App extends Component {
   render() {
@@ -160,6 +161,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <MinimalPopper />
+            </Grid>
+            <Grid item xs={12}>
+                <PositionedPopper />
             </Grid>
         </Grid>
     );

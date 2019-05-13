@@ -44,6 +44,7 @@ import SimplePopper from './utils/popper/SimplePopper';
 import MinimalPopper from './utils/popper/MinimalPopper';
 import PositionedPopper from './utils/popper/PositionedPopper';
 import NoTransitionPopper from './utils/popper/NoTransitionPopper';
+import FakedReferencePopper from './utils/popper/FakedReferencePopper';
 
 class App extends Component {
   render() {
@@ -168,6 +169,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <NoTransitionPopper />
+            </Grid>
+            <Grid item xs={12}>
+                <FakedReferencePopper />
             </Grid>
         </Grid>
     );

@@ -42,6 +42,10 @@ import MouseOverPopover from "./utils/popover/MouseOverPopover";
 import RenderPropsPopover from "./utils/popover/RenderPropsPopover";
 import PopoverPopupState from "./utils/popover/PopoverPopupState";
 import SimplePopper from "./utils/popper/SimplePopper";
+import MinimalPopper from './utils/popper/MinimalPopper';
+import PositionedPopper from './utils/popper/PositionedPopper';
+import NoTransitionPopper from './utils/popper/NoTransitionPopper';
+import FakedReferencePopper from './utils/popper/FakedReferencePopper';
 
 class App extends Component {
   render() {
@@ -147,10 +151,28 @@ class App extends Component {
                 <SimplePopover />
             </Grid>
             <Grid item xs={12}>
+                <MouseOverPopover />
+            </Grid>
+            <Grid item xs={12}>
                 <AnchorPlayground />
             </Grid>
             <Grid item xs={12}>
-                <MouseOverPopover />
+                <PopoverPopupState />
+            </Grid>
+            <Grid item xs={12}>
+                <SimplePopper />
+            </Grid>
+            <Grid item xs={12}>
+                <MinimalPopper />
+            </Grid>
+            <Grid item xs={12}>
+                <PositionedPopper />
+            </Grid>
+            <Grid item xs={12}>
+                <NoTransitionPopper />
+            </Grid>
+            <Grid item xs={12}>
+                <FakedReferencePopper />
             </Grid>
             <Grid item xs={12}>
                 <RenderPropsPopover />

@@ -49,6 +49,7 @@ import FakedReferencePopper from './utils/popper/FakedReferencePopper';
 import RenderPropsPopper from "./utils/popper/RenderPropsPopper";
 import PopperPopupState from './utils/popper/PopperPopupState';
 import SimplePortal from "./portal/SimplePortal";
+import SimpleNoSsr from "./nossr/SimpleNoSsr";
 
 class App extends Component {
   render() {
@@ -194,6 +195,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <SimplePortal />
+            </Grid>
+            <Grid item xs={12}>
+                <SimpleNoSsr />
             </Grid>
         </Grid>
     );

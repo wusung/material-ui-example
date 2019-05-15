@@ -19,7 +19,7 @@ function PopoverPopupState(props) {
     <PopupState variant="popover" popupId="demo-popup-popover">
       {PopupState => (
         <div>
-          <Button variant="container" {...bindTrigger(PopupState)}>
+          <Button variant="contained" {...bindTrigger(PopupState)}>
             Open Popover
           </Button>
           <Popover

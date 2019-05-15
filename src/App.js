@@ -51,6 +51,7 @@ import PopperPopupState from './utils/popper/PopperPopupState';
 import SimplePortal from "./portal/SimplePortal";
 import SimpleNoSsr from "./nossr/SimpleNoSsr";
 import ClickAway from "./clickawaylistener/ClickAway";
+import ButtonAppBar from "./component/appbar/ButtonAppBar";
 
 class App extends Component {
   render() {
@@ -202,6 +203,9 @@ class App extends Component {
             </Grid>
             <Grid item xs={12}>
                 <ClickAway />
+            </Grid>
+            <Grid item xs={12}>
+                <ButtonAppBar />
             </Grid>
         </Grid>
     );
